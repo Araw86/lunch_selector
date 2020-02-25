@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { Button, Typography, Container, Box } from '@material-ui/core';
+
 const lunchPlace = [
   'Arab',
   'Arabu u vody',
@@ -44,14 +46,20 @@ export class MainWindow extends Component {
 
   render() {
     return (
-      <div>
-        <div>
-          <h1>{this.state.selectedPlace}</h1>
-        </div>
-        <div>
-          <button onClick={this.selectRandomCallback}>Select place</button>
-        </div>
-      </div>
+      <Container>
+        <Box>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={this.selectRandomCallback}
+          >
+            Select place
+          </Button>
+        </Box>
+        <Box>
+          <Typography variant="h1">{this.state.selectedPlace}</Typography>
+        </Box>
+      </Container>
     );
   }
 }
