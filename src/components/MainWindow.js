@@ -4,7 +4,6 @@ import { Button, Typography, Container, Box } from '@material-ui/core';
 
 const lunchPlace = [
   'Arab',
-  'Arabu u vody',
   'Oliva',
   'Vietnam - narohu',
   'Vietnam - u autobusaku',
@@ -18,13 +17,16 @@ const lunchPlace = [
   'Indie velka',
   'Cina',
   'Burgr',
-  'Reznik',
   'Opera',
   'Pivoklub',
   'Karlinsky mlyn',
-  'Lahudky - autobusak',
   'Co albert dal',
   'Strelnice',
+  'Poutine',
+  'Wok vietnam',
+  'Quick & easy',
+  'Manifesto',
+  'Green factory',
   'Najit neco noveho'
 ];
 
