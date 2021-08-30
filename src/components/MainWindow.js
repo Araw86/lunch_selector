@@ -13,7 +13,6 @@ const lunchPlace = [
   'Pizza - Altia',
   'Menza dole',
   'Vegie garden + albert',
-  'Dhaba',
   'Indie velka',
   'Cina',
   'Burgr',
